@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Employee Data Management</title>
+ 
+  
 
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-  <link rel="stylesheet" type="text/css" href="/asset/style.css">
-
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <meta charset="UTF-8">
+  <title>Train Schedule</title>
 
 </head>
 <body>
-  <h1>Employee Data Management</h1>
+
+  <div class="jumbotron">
+  <h1>Anytime is Train Time</h1>
+  <h2>Choo Choo. Chee Chee.</h2>
+</div>
 
   <!-- The Train Schedule --> 
   <center>
   <table style="width:80%" id="directory">
   	<thead>
     <tr>
-      <th id="employee">Employee Name</th>
+      <th id="train">Train Name</th>
 
-      <th id="role">Role</th>
+      <th id="destaination">Destination</th>
 
-      <th id="start">Start Date</th> 
+      <th id="firstTrainTime">First Train Time</th> 
 
-      <th id="months-worked">Months Worked</th>
+      <th id="frequency">Frequency</th>
 
-      <th id="monthly-rate">Monthly Rate($)</th>
-      
-      <th id="total-billed">Total Billed($)</th>
+      <th id="nextArrival">Next Arrival</th>
+
+      <th id="minsAway">Minutes Away</th>
     </tr>
     </thead>
    	<tbody id="add-employee-row"></tbody>
@@ -74,5 +79,5 @@
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 <!-- js style sheet -->
-<script src="/asset/train.js"></script>
+<script src="/js/train.js"></script>
 </html>
